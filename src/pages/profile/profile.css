@@ -1,0 +1,50 @@
+.link-user {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  /* background-color: rgb(127, 127, 133); */
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.status-pending {
+  color: #000000;
+  /* Laranja */
+  background-color: #FFA500;
+  /* Laranja */
+  font-weight: bold;
+  border-radius: 5px;
+  /* padding: 3px; */
+  max-width: 100px;
+  text-align: center;
+  margin: 10px;
+}
+
+.status-finished {
+  color: #000000;
+  /* Laranja */
+  background-color: #32CD32;
+  ;
+  /* Laranja */
+  font-weight: bold;
+  border-radius: 5px;
+  /* padding: 3px; */
+  max-width: 100px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.status-accepted {
+  font-weight: bold;
+  background-color: #FFD700;
+  font-weight: bold;
+  border-radius: 5px;
+  /* padding: 3px; */
+  max-width: 100px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.pr {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,17 @@
+.input {
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+    padding: 8px 15px;
+    color: #000; /* Texto do input */
+  }
+  
+  .input::placeholder {
+    color: #000;
+    opacity: 0.6;
+  }
+  

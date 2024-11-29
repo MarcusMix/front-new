@@ -1,0 +1,63 @@
+/* Container principal da caixa de formulário */
+.form-box {
+  max-width: 300px;
+  background: #f1f7fe;
+  overflow: hidden;
+  border-radius: 16px;
+  color: #010101;
+  margin: auto; /* Centraliza horizontalmente */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centraliza verticalmente */
+}
+
+/* Estilização do formulário */
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
+
+/* Texto do título */
+.title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+/* Texto do subtítulo */
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Contêiner dos inputs */
+.form-container {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 1rem 0 0.5rem;
+  width: 100%;
+}
+
+/* Sessão inferior do formulário */
+.form-section {
+  padding: 16px;
+  font-size: 0.85rem;
+  background-color: #e0ecfb;
+  box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+}
+
+.form-section a {
+  font-weight: bold;
+  color: #0066ff;
+  transition: color 0.3s ease;
+}
+
+.form-section a:hover {
+  color: #005ce6;
+  text-decoration: underline;
+}

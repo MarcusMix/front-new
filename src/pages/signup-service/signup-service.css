@@ -1,0 +1,37 @@
+.form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
+
+/* Texto do subtítulo */
+.subtitle {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Sessão inferior do formulário */
+.form-section {
+  padding: 16px;
+  font-size: 0.85rem;
+  background-color: #e0ecfb;
+  box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+}
+
+.form-section a {
+  font-weight: bold;
+  color: #0066ff;
+  transition: color 0.3s ease;
+}
+
+.form-section a:hover {
+  color: #005ce6;
+  text-decoration: underline;
+}
+
+.fix {
+  margin-top: 160px;
+}

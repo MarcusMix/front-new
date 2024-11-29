@@ -1,0 +1,11 @@
+.form-box {
+  max-width: 100%;
+  max-width: 400px; /* Aumenta o tamanho para melhorar a exibição dos campos */
+  background: #f1f7fe;
+  overflow: hidden;
+  border-radius: 16px;
+  color: #010101;
+  margin: 20px auto; /* Centraliza horizontalmente com uma margem */
+  padding: 20px; /* Adiciona padding para evitar que os campos toquem as bordas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+}

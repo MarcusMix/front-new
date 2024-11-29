@@ -1,0 +1,31 @@
+.service-orders-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    /* Adicione margem superior aqui */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 100px; 
+}
+
+.service-orders-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-order-list {
+    background-color: #f5f5f5;
+    /* Cor de fundo suave */
+}
+
+.service-order-item {
+    &:hover {
+        background-color: #e0e0e0;
+        /* Cor de fundo ao passar o mouse */
+    }
+}
+
+.action-button {
+    margin-left: 20px;
+    /* Espaçamento entre os botões */
+}
